@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cardea.beatopen.PlottingActivity">
+
+    <LinearLayout
+        android:id="@+id/buttonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonBarStyle"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="0.5"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/saveButton" />
+
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="0.5"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/restartButton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chartContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/buttonBar"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.cardea.beatopen.HomeActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Data"
+        android:id="@+id/button_send"
+        android:clickable="true"
+        android:focusable="true"
+        android:textStyle="bold|normal|italic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:id="@+id/upper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:weightSum="4"
+        style="?android:attr/buttonBarStyle" >
+
+        <Button
+            android:id="@+id/btn_ecg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_ecg_start"
+            android:text="ECG"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btn_emg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_emg"
+            android:text="EMG"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"  />
+
+        <Button
+            android:id="@+id/btn_ppg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_ppg"
+            android:text="PPG"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"  />
+
+        <Button
+            android:id="@+id/btn_eog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_eog"
+            android:text="EOG"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"  />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Status"
+        android:textColor="@color/beat_blue"
+        android:id="@+id/textViewStatus"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/upper"
+        android:layout_alignEnd="@+id/upper"
+        android:layout_margin="10dp"
+        android:textStyle="italic" />
+</RelativeLayout>

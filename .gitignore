@@ -1,3 +1,9 @@
+
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/captures
+
 # Built application files
 *.apk
 *.ap_
@@ -11,9 +17,10 @@
 # Generated files
 bin/
 gen/
+out/
 
 # Gradle files
-.gradle/
+.gradle
 build/
 
 # Local configuration file (sdk path, etc)
@@ -30,3 +37,6 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+# Intellij
+*.iml

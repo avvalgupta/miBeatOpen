@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cardea.beatopen.HomeActivity">
+    <item android:id="@+id/bt_connect_scan"
+        android:icon="@drawable/ic_action_bluetooth"
+        android:title="@string/bt_connect"
+        android:showAsAction="always|withText"
+        app:showAsAction="always|withText"
+       />
+    <item android:id="@+id/beat_history"
+        android:icon="@drawable/ic_action_history"
+        android:title="@string/history"
+        android:showAsAction="always|withText"
+        app:showAsAction="always|withText" />
+</menu>
