@@ -1,4 +1,4 @@
-
+/.idea*
 /.idea/workspace.xml
 /.idea/libraries
 .DS_Store
@@ -7,8 +7,8 @@
 # Built application files
 *.apk
 *.ap_
+app/build/*
 
-# Files for the Dalvik VM
 *.dex
 
 # Java class files
@@ -20,7 +20,9 @@ gen/
 out/
 
 # Gradle files
-.gradle
+*.gradle
+gradle*
+.gradle/
 build/
 
 # Local configuration file (sdk path, etc)
@@ -40,3 +42,4 @@ captures/
 
 # Intellij
 *.iml
+.idea/
