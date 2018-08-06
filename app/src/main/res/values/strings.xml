@@ -1,5 +1,5 @@
 <resources xmlns:xliff="http://schemas.android.com/tools">
-    <string name="app_name">miBeat Open</string>
+    <string name="app_name">Open Classic</string>
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_bluetooth_setup">BluetoothSetupActivity</string>
