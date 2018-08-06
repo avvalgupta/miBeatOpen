@@ -35,6 +35,7 @@
     <string name="signal_not_selected">Please select signal type</string>
     <string name="saveButton">Save</string>
     <string name="restartButton">Re-fetch</string>
+    <string name="splash">splash screen</string>
 
 
 </resources>
